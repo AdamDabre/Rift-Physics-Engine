@@ -132,10 +132,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\Particle\Particle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RiftPhysics.h" />
     <ClInclude Include="src\Math\Math.h" />
+    <ClInclude Include="src\Particle\Particle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
